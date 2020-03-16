@@ -46,12 +46,14 @@ Terdapat Dua Role yaitu `admin` & `kasir`
 Untuk cara instalasi dan konfigurasi caranya sangat mudah
 
 1. Kalian download atau clone repositori ini
-2. Selanjutnya kalian bisa buka file `application/config/config.php` 
-3. Ubah isi dari variable `$config['base_url']` dengan `http://localhost/namafolder/`
-4. Untuk `namafolder` silahkan kalian ganti sesuai nama folder dari aplikasi ini di komputer atau laptop kalian
-5. Import `db/db_penjualan.sql` ke database milik kalian
-6. Untuk login `admin` kalian bisa menggunakan username = `nugrohoff` dan password `pwd_nugroho`
-7. Untuk login `kasir` kalian bisa menggunakan username = `KSR58` dan password `pwd_fakhrul`
+2. Masuk ke folder project ini
+3. Lalu buka terminal dan jalankan `composer install`
+4. Selanjutnya kalian bisa buka file `application/config/config.php` 
+5. Ubah isi dari variable `$config['base_url']` dengan `http://localhost/namafolder/`
+6. Untuk `namafolder` silahkan kalian ganti sesuai nama folder dari aplikasi ini di komputer atau laptop kalian
+7. Import `db/db_penjualan.sql` ke database milik kalian
+8. Untuk login `admin` kalian bisa menggunakan username = `nugrohoff` dan password `pwd_nugroho`
+9. Untuk login `kasir` kalian bisa menggunakan username = `KSR58` dan password `pwd_fakhrul`
 
 ### Tentang Saya
 
