@@ -1,70 +1,58 @@
-###################
-What is CodeIgniter
-###################
+# Aplikasi Penjualan Dengan Framework CodeIgniter 3 & Template SB Admin 2
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+### Kenapa saya membuat aplikasi ini?
 
-*******************
-Release Information
-*******************
+Ini merupakan aplikasi pertama yang akan saya jadikan sebagai portfolio. Sebenarnya saya sudah banyak membuat banyak aplikasi berbasis web, namun saya lupa membackupnya. Jadi saya harus mengulang lagi dari awal demi portfolio. Selain sebagai portfolio, contoh aplikasi ini juga bisa saya jadikan sebagai latihan untuk mengasah skill koding saya.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+### Untuk siapa sih aplikasi ini?
 
-**************************
-Changelog and New Features
-**************************
+Untuk kalian semua yang mau belajar atau yang butuh inspirasi tentang aplikasi berbasis web terutama yang menggunakan PHP dan MySQL.
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+### Boleh ga memodifikasi aplikasi ini?
 
-*******************
-Server Requirements
-*******************
+Jawabanya adalah **sangat sangat boleh!** Tapi ingat tetap sertakan siapa yang membuat aplikasi ini. 
 
-PHP version 5.6 or newer is recommended.
+### Kalo di jual boleh ga?
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+**Dilarang Keras!** Karena ini aplikasi bener bener gratis dan bebas bagi siapapun yang menggunakan dan ingin memodifikasinya.
 
-************
-Installation
-************
+### Fiturnya apa saja sih?
+Untuk fiturnya masih sangas sederhana, contohnya sebagai berikut
+1. **Modul Authentikasi**
+   
+   Di modul ini saya membuat fitur untuk login dan logout.
+   
+2. **Modul Data Barang**
+   
+   Di modul ini saya membuat fitur untuk melihat, menambah, mengubah, menghapus dan meng-ekspor data barang.
+   
+3. **Modul Data Kasir**
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+   Di modul ini saya membuat fitur untuk melihat, menambah, mengubah, menghapus dan meng-ekspor data kasir.
+   
+4. **Modul Transaksi Penjualan**
 
-*******
-License
-*******
+   Di modul ini saya membuat fitur untuk melihat, menambah, menghapus dan meng-ekspor transaksi penjualan.
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+5. **Modul Manajemen Akun**
 
-*********
-Resources
-*********
+   Di modul ini saya hanya membuat fitur untuk melihat dan menghapus akun.
+	 
+### Role
+Terdapat Dua Role yaitu `admin` & `kasir`
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+### Instalasi & Konfigurasi
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+Untuk cara instalasi dan konfigurasi caranya sangat mudah
 
-***************
-Acknowledgement
-***************
+1. Kalian download atau clone repositori ini
+2. Selanjutnya kalian bisa buka file `application/config/config.php` 
+3. Ubah isi dari variable `$config['base_url']` dengan `http://localhost/namafolder/`
+4. Untuk `namafolder` silahkan kalian ganti sesuai nama folder dari aplikasi ini di komputer atau laptop kalian
+5. Import `db/db_penjualan.sql` ke database milik kalian
+6. Untuk login `admin` kalian bisa menggunakan username = `nugrohoff` dan password `pwd_nugroho`
+7. Untuk login `kasir` kalian bisa menggunakan username = `KSR58` dan password `pwd_fakhrul`
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+### Tentang Saya
+
+Fakhrul Fanani Nugroho siswa Kelas 12 Jurusan Teknik Komputer Informatika di SMK Negeri 1 Wanareja. https://www.instagram.com/nugrohospace/
