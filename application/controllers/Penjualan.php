@@ -71,7 +71,7 @@ class Penjualan extends CI_Controller {
 	}
 
 	public function hapus($no_penjualan){
-		if($this->m_penjualan->hapus($no_penjualan)){
+		if($this->m_penjualan->hapus($no_penjualan) && $this->m_detail_penjualan->hapus($no_penjualan)){
 			$this->session->set_flashdata('success', 'Invoice Penjualan <strong>Berhasil</strong> Dihapus!');
 			redirect('penjualan');
 		} else {
