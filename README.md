@@ -57,4 +57,4 @@ Untuk cara instalasi dan konfigurasi caranya sangat mudah
 
 ### Tentang Saya
 
-Fakhrul Fanani Nugroho siswa Kelas 12 Jurusan Teknik Komputer Informatika di SMK Negeri 1 Wanareja. https://www.instagram.com/nugrohospace/
+Fakhrul Nugroho siswa Kelas 12 Jurusan Teknik Komputer Informatika di SMK Negeri 1 Wanareja. https://www.instagram.com/nugrohospace/
